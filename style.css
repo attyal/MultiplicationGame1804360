@@ -1,0 +1,115 @@
+
+    #game-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color:Purple;
+      opacity: 0.9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+   body {
+            font-family:Garamond ;
+		color:Yellow;
+            background-color:;
+		text-align: center;
+            background-image: url(https://t3.ftcdn.net/jpg/01/78/63/34/360_F_178633426_U5MZNWHx2Y35XmuNonNxnJKqJAqUmEy7.jpg);
+background-position: center;
+            background-size: cover;
+
+        }
+
+        header {
+            text-align: center;
+            margin-top:;
+            height:10%;
+             background-color:Purple;
+             
+        }
+
+       
+
+        title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        question img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        answer {
+            width: 50px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 15px 32px;
+            background-color: Green;
+            color: White;
+            border: none;
+            display:inline-block;
+            font-size:16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+
+	.center{
+display: block;
+margin-left: auto;
+margin-right:auto;
+width:100%;
+height:100%;
+
+
+
+        .results {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .results p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+
+        .charts {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .chart {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        .chart img {
+            width: 100%;
+            height: auto;
+
+        }
+	footer {
+    background-color:#34A853;
+    color:black;
+     margin top: ;
+     height: 10;
+    text-align: center;
+    padding:10px
+	}
+
+      

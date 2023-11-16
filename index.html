@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multiplication Madness</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Multiplication Fun!</h1></header>
+<!-- Athaliah Knight. 1804360 -->
+
+<body>
+<!-- FRont end. getting user data -->
+  <div id="game-container">
+      <div id="registration-form">
+      <h1>Register Here</h1>
+      <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select><br><br>
+
+        <button type="button" onclick="Register(); PlayGame();">Register</button>
+      </form>
+    </div>
+
+    <div id="game-play" style="display: none;">
+      <h1>Multiplication Fun!</h1>
+      <p id="question"></p>
+
+      <label for="answer">Your Answer:</label>
+      <input type="text" id="answer">
+
+      <button type="button" onclick="CheckAnswer()">Check</button>
+
+      <p id="message"></p>
+
+      <button type="button" onclick="ShowStatistics()">Statistics</button>
+      <button type="button" onclick="RegisterNewPlayer()">Register Another Player</button>
+<button type="button" onclick="EndGame()">End Game</button>
+    </div>
+
+    <div id="statistics" style="display: none;">
+      <h2>Statistics</h2>
+      <div id="showpercentage"></div>
+      <h3>All Players</h3>
+      <div id="showallplayers"></div>
+
+      <!-- Display charts -->
+      <div id="showcharts"></div>
+    </div>
+  </div>
+<!-- Calling the javescript -->
+<script src="script.js"></script>
+<a href="#Top">Top of the page </a>
+<!-- Footer Section. Footer bar not showing up, go back to lab 2 -->
+    <footer>
+        <h3>&copy; 2023 Athaliah Knight</h3>
+        <h3>Click for more fun Math Games:<a href="https://www.coolmathgames.com/">Cool Math Games</a></h3>
+    </footer>
+</body>
+</html>
